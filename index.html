@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="text"></p>
+    <script>
+
+        for (i = 1; i <= 5; i++) {
+            document.getElementById('text').innerHTML += `${i} .  `
+            if (i == 1) {
+                document.getElementById('text').innerHTML += `Tiger <br>`;
+            }
+            if (i == 2) {
+                document.getElementById('text').innerHTML += `Lion <br> `;
+            }
+            if (i == 3) {
+                document.getElementById('text').innerHTML += `Dog <br>`;
+            }
+            if (i == 4) {
+                document.getElementById('text').innerHTML += `Fish <br>`;
+            }
+            if (i == 5) {
+                document.getElementById('text').innerHTML += `Cat <br>`;
+            }
+        }
+    </script>
+
+</body>
+
+</html>
